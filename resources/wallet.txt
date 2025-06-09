@@ -1,0 +1,4 @@
+# Enter your private keys here, one per line
+# Example:
+# 0xYOUR_PRIVATE_KEY_1
+# 0xYOUR_PRIVATE_KEY_2
