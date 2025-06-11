@@ -27,12 +27,7 @@ cd kyberswap-transfer
 
 ### 3. Configure environment
 
-1. Copy the template:
-
-   ```bash
-   cp .env.example .env
-   ```
-
+1. The setup script creates `.env` from `env.example` if it does not already exist.
 2. Open `.env` and fill in **all** required keys (see below).
 
 ### 4. Run
@@ -100,4 +95,3 @@ You can supply wallets interactively via CLI, or maintain a default list in
 Pull requests are welcome—open an issue first to discuss changes.
 
 MIT License
-b42cab9 (Initial commit)
