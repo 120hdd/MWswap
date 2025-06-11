@@ -18,8 +18,8 @@ This repository contains a **Python script** that automates **swap** ERC‑20 tr
 
 ```bash
 # 1. Clone repo
-git clone https://github.com/yourusername/kyberswap-transfer.git
-cd kyberswap-transfer
+git clone https://github.com/120hdd/MWswap.git
+cd Mwswap
 
 # 2. Run the setup script
 ./setup.sh
