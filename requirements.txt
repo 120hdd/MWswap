@@ -1,5 +1,6 @@
 web3
 python-dotenv
 requests
-pandas
 questionary
+rich
+customtkinter
