@@ -47,7 +47,8 @@ class SwapManager:
         logging.basicConfig(level=logging.INFO, handlers=[RichHandler(console=self.console)])
         self.logger = logging.getLogger(__name__)
 
-        self.is_ubunto = platform.system() == 'linux' in platform.version
+        # Determine if running on a Linux system (commonly Ubuntu)
+        self.is_ubuntu = platform.system().lower() == "linux"
 
         # Lists to store loaded wallets
         self.wallet_addresses = []
@@ -223,7 +224,7 @@ class SwapManager:
                 choices=["Default Path (File)", "Manual Input (CLI)"]
             ).ask()
             if choice == "Default Path (File)" :
-                self.load_private_keys_from_file
+                self.load_private_keys_from_file()
             if choice == "Manual Input (CLI)" :
                 self.load_private_keys_from_cli()
         else:
