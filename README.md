@@ -21,10 +21,8 @@ This repository contains a **Python script** that automates **swap** ERC‑20 tr
 git clone https://github.com/yourusername/kyberswap-transfer.git
 cd kyberswap-transfer
 
-# 2. Create a virtual env & install deps
-python -m venv .venv
-source .venv/bin/activate  # On Windows: .venv\Scripts\activate
-pip install -r requirements.txt
+# 2. Run the setup script
+./setup.sh
 ```
 
 ### 3. Configure environment
@@ -40,7 +38,7 @@ pip install -r requirements.txt
 ### 4. Run
 
 ```bash
-python run.py transactions.csv
+python main_runner.py
 ```
 
 ---
