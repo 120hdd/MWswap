@@ -28,7 +28,7 @@ cd kyberswap-transfer
 ### 3. Configure environment
 
 1. The setup script creates `.env` from `env.example` if it does not already exist.
-2. Open `.env` and fill in **all** required keys (see below).
+2. Open `.env` and fill in **all** required keys ([Getting API Keys](#getting-api-keys) below.
 
 ### 4. Run
 
