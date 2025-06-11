@@ -209,7 +209,7 @@ class OP :
 
     CHAIN_ID = "10"
     CHAIN_NAME = "optimism"
-    CHAIN_NATIVE_TOKEN = "0x4200000000000000000000000000000000000042"
+    NATIVE_TOKEN = "0x4200000000000000000000000000000000000042"
 
     # Paths to your wallet and address files
     KYBERSWAP_API_ROUTE = os.path.join(KYBERSWAP_API_BASE + CHAIN_NAME  + "/api/v1/routes")
@@ -382,7 +382,7 @@ class ETHER :
 
     CHAIN_ID = "1"
     CHAIN_NAME = "ethereum"
-    CHAIN_NATIVE_TOKEN = "0x0000000000001fF3684f28c67538d4D072C22734"
+    NATIVE_TOKEN = "0x0000000000001fF3684f28c67538d4D072C22734"
 
     # Paths to your wallet and address files
     KYBERSWAP_API_ROUTE = os.path.join(KYBERSWAP_API_BASE + CHAIN_NAME  + "/api/v1/routes")
