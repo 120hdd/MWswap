@@ -26,8 +26,6 @@ cd MWswap
 ```
 
 ### 3. Configure environment
-
-1. The setup script creates `.env` from `env.example` if it does not already exist.
 2. Open `.env` and fill in **all** required keys [Getting API Keys](#getting-api-keys)
 
 ### 4. Run
